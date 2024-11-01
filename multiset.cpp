@@ -129,10 +129,10 @@ multiset::multiset(unordered_map<int,int> data, unordered_map<string,int> hashes
                 if(dep.first==elm.second) go = false;
             }
             if(go){
-                char c = dep.first;
-                string s;
-                s+=c;
-                elms.push_back(make_pair(s,dep.second));
+                char tmp = dep.first;
+                string element;
+                element+=tmp;
+                elms.push_back(make_pair(element,dep.second));
             }
         }
         for(auto& elm : elms){
@@ -158,38 +158,33 @@ multiset::multiset(unordered_map<int,int> data, unordered_map<string,int> hashes
 
         return result;
     }
-        int multiset::hashf(string str){
-        int hash = 213;
-        int i = 0;
-        int count = 0;
-        int open = 0;
-        int close = 0;
-        int max_count = 0;
-        while(i < str.length()){
-            //cout << str[i] << endl;
-            if(str[i]=='{' && count == 0){
-                count++;
-                max_count++;
-                open = i;
-            } else
-                if(str[i]=='{'){
-                    count++;
-                    max_count++;
+    int multiset::hashf(string str){
+        int pos = 0;
+        int level = 1;
+        if(str[0]=='{') pos+=1;
+        return hash(str, pos, level);
+    }
+    int multiset::hash(string str, int& pos, int& level){
+        int hash_result = 213;
+        vector<int> nested;
+        while (pos < str.size()) {
+            char element = str[pos++];
+
+            if (element == '{') {
+                int nested_hash = hash(str, pos, ++level);
+                nested.push_back(nested_hash);
+            } else if (element == '}') {
+                int level_hash = hash_result;
+                for (int h : nested) {
+                    hash_result += h*level_hash + 1;
                 }
-                if(str[i]=='}' && count ==1){
-                    close = i;
-                    count--;
-                } else
-                    if(str[i]=='}')count--;
-                    if(isalnum(str[i]) && count==1) hash += static_cast<int>(str[i]*max_count);
-                    i++;
+                level--;
+                return hash_result;
+            } else if (isalnum(element)) {
+                hash_result += static_cast<int>(element) * level;
+            }
         }
-        //cout << str[close] << " --- close" << endl;
-        if(max_count==1) return hash;
-        if(open==0 && close==0) return hash;
-        string next = string(str.begin()+1+open, str.begin()+close);
-       //cout << next << endl;
-        return hash + hashf(next);
+        return hash_result;
     }
 
     unordered_map<string, int> hashes = unordered_map<string,int>(100);

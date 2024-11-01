@@ -96,9 +96,20 @@ TEST(multiset_test, hashf){
     multiset test;
     int first = test.hashf("{a,b,c,d,{c,d}}");
     int second = test.hashf("{d,c,b,a,{c,d}}");
+    EXPECT_EQ(first,second);}
+
+TEST(multiset_test, hash){
+    multiset test;
+    int first = test.hashf("{{q,w,{s,{d,w},a}},a,b,c,d,{c,d},{d,d},a}");
+    int second = test.hashf("{d,c,b,a,{c,d}, {d,d}, {q,w,{s,{d,w},a}}a}");
     EXPECT_EQ(first,second);
-}
-int main(int argc, char** argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
+        }
+
+TEST(multiset_test, hashh){
+        multiset test;
+        int first = test.hashf("{a,{b,c},{d,e},f}");
+        int second = test.hashf("{{b,c},a,f,{d,e}}");
+        EXPECT_EQ(first,second);
+        }
+
+

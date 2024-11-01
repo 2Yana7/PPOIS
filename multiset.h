@@ -37,4 +37,5 @@ public:
     std::unordered_map<std::string, int> hashes;
     std::unordered_map<int, int> data;
     int hashf(std::string str);
+    int hash(std::string str, int& pos, int& level);;
 };
