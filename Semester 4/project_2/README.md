@@ -121,30 +121,6 @@
 
 Приложение для управления медицинскими записями пациентов с графическим интерфейсом на базе Tkinter.
 
-## Структура проекта
-
-```
-project/
-├── model/
-│   ├── patient_record.py
-│   ├── xml_handler.py
-│   ├── subject.py
-│   └── patient_model.py
-├── view/
-│   ├── dialog_base.py
-│   ├── main_window.py
-│   ├── add_record_dialog.py
-│   ├── search_dialog.py
-│   └── delete_dialog.py
-├── controller/
-│   └── patient_controller.py
-└── interfaces/
-    ├── observer.py
-    ├── patient_storage.py
-    ├── view.py
-    └── controller.py
-```
-
 ## Описание классов
 
 ### Patient
@@ -249,9 +225,3 @@ project/
    - Поиска существующих записей
    - Удаления записей
    - Сохранения/загрузки данных в XML
-
-## Требования
-
-- Python 3.x
-- tkinter
-- tkcalendar 
