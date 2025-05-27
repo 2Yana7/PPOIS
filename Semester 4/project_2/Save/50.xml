@@ -1,0 +1,362 @@
+<patients>
+  <record>
+    <patient_name>Анна Смирнова</patient_name>
+    <address>Минск, Беларусь</address>
+    <birth_date>1985-07-14</birth_date>
+    <appointment_date>2025-05-10</appointment_date>
+    <doctor_name>Иванов</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Иван Петров</patient_name>
+    <address>Гродно, Беларусь</address>
+    <birth_date>1990-03-22</birth_date>
+    <appointment_date>2025-04-18</appointment_date>
+    <doctor_name>Соколова</doctor_name>
+    <conclusion>требуется обследование</conclusion>
+  </record>
+  <record>
+    <patient_name>Ольга Кузнецова</patient_name>
+    <address>Брест, Беларусь</address>
+    <birth_date>1978-11-05</birth_date>
+    <appointment_date>2025-05-02</appointment_date>
+    <doctor_name>Николаев</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Дмитрий Иванов</patient_name>
+    <address>Гомель, Беларусь</address>
+    <birth_date>2001-01-30</birth_date>
+    <appointment_date>2025-03-15</appointment_date>
+    <doctor_name>Павлова</doctor_name>
+    <conclusion>рекомендована терапия</conclusion>
+  </record>
+  <record>
+    <patient_name>Екатерина Васильева</patient_name>
+    <address>Могилёв, Беларусь</address>
+    <birth_date>1965-09-12</birth_date>
+    <appointment_date>2025-02-20</appointment_date>
+    <doctor_name>Смирнов</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Алексей Михайлов</patient_name>
+    <address>Витебск, Беларусь</address>
+    <birth_date>1958-04-25</birth_date>
+    <appointment_date>2025-01-10</appointment_date>
+    <doctor_name>Кузнецова</doctor_name>
+    <conclusion>требуется дообследование</conclusion>
+  </record>
+  <record>
+    <patient_name>Мария Федорова</patient_name>
+    <address>Бобруйск, Беларусь</address>
+    <birth_date>1995-06-17</birth_date>
+    <appointment_date>2025-04-05</appointment_date>
+    <doctor_name>Лебедев</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Сергей Морозов</patient_name>
+    <address>Барановичи, Беларусь</address>
+    <birth_date>1982-12-03</birth_date>
+    <appointment_date>2025-05-12</appointment_date>
+    <doctor_name>Волкова</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Ирина Александрова</patient_name>
+    <address>Мозырь, Беларусь</address>
+    <birth_date>1972-08-29</birth_date>
+    <appointment_date>2025-03-22</appointment_date>
+    <doctor_name>Новиков</doctor_name>
+    <conclusion>рекомендована диета</conclusion>
+  </record>
+  <record>
+    <patient_name>Николай Дмитриев</patient_name>
+    <address>Пинск, Беларусь</address>
+    <birth_date>1969-05-11</birth_date>
+    <appointment_date>2025-02-28</appointment_date>
+    <doctor_name>Петрова</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Алина Павлова</patient_name>
+    <address>Минск, Беларусь</address>
+    <birth_date>2003-10-08</birth_date>
+    <appointment_date>2025-04-30</appointment_date>
+    <doctor_name>Сидоров</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Владимир Григорьев</patient_name>
+    <address>Гродно, Беларусь</address>
+    <birth_date>1955-02-14</birth_date>
+    <appointment_date>2025-01-25</appointment_date>
+    <doctor_name>Никитина</doctor_name>
+    <conclusion>рекомендовано лечение</conclusion>
+  </record>
+  <record>
+    <patient_name>Ольга Николаева</patient_name>
+    <address>Брест, Беларусь</address>
+    <birth_date>1988-07-02</birth_date>
+    <appointment_date>2025-05-15</appointment_date>
+    <doctor_name>Васильев</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Павел Соколов</patient_name>
+    <address>Гомель, Беларусь</address>
+    <birth_date>1992-11-19</birth_date>
+    <appointment_date>2025-04-20</appointment_date>
+    <doctor_name>Морозова</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Елена Орлова</patient_name>
+    <address>Могилёв, Беларусь</address>
+    <birth_date>1976-03-27</birth_date>
+    <appointment_date>2025-03-05</appointment_date>
+    <doctor_name>Кузнецов</doctor_name>
+    <conclusion>требуется обследование</conclusion>
+  </record>
+  <record>
+    <patient_name>Максим Лебедев</patient_name>
+    <address>Витебск, Беларусь</address>
+    <birth_date>1983-09-13</birth_date>
+    <appointment_date>2025-02-14</appointment_date>
+    <doctor_name>Иванова</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Татьяна Степанова</patient_name>
+    <address>Бобруйск, Беларусь</address>
+    <birth_date>1962-12-21</birth_date>
+    <appointment_date>2025-01-18</appointment_date>
+    <doctor_name>Павлов</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Виктор Козлов</patient_name>
+    <address>Барановичи, Беларусь</address>
+    <birth_date>1979-04-09</birth_date>
+    <appointment_date>2025-05-05</appointment_date>
+    <doctor_name>Григорьева</doctor_name>
+    <conclusion>рекомендовано лечение</conclusion>
+  </record>
+  <record>
+    <patient_name>Юлия Волкова</patient_name>
+    <address>Мозырь, Беларусь</address>
+    <birth_date>1998-06-30</birth_date>
+    <appointment_date>2025-04-12</appointment_date>
+    <doctor_name>Михайлов</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Андрей Федоров</patient_name>
+    <address>Пинск, Беларусь</address>
+    <birth_date>1987-10-16</birth_date>
+    <appointment_date>2025-03-28</appointment_date>
+    <doctor_name>Смирнова</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Наталья Белова</patient_name>
+    <address>Минск, Беларусь</address>
+    <birth_date>1994-01-05</birth_date>
+    <appointment_date>2025-02-08</appointment_date>
+    <doctor_name>Козлов</doctor_name>
+    <conclusion>требуется обследование</conclusion>
+  </record>
+  <record>
+    <patient_name>Сергей Новиков</patient_name>
+    <address>Гродно, Беларусь</address>
+    <birth_date>1967-08-31</birth_date>
+    <appointment_date>2025-01-30</appointment_date>
+    <doctor_name>Орлова</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Ксения Морозова</patient_name>
+    <address>Брест, Беларусь</address>
+    <birth_date>2000-11-11</birth_date>
+    <appointment_date>2025-05-18</appointment_date>
+    <doctor_name>Лебедева</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Михаил Сидоров</patient_name>
+    <address>Гомель, Беларусь</address>
+    <birth_date>1975-05-23</birth_date>
+    <appointment_date>2025-04-02</appointment_date>
+    <doctor_name>Волкова</doctor_name>
+    <conclusion>рекомендовано обследование</conclusion>
+  </record>
+  <record>
+    <patient_name>Вера Никитина</patient_name>
+    <address>Могилёв, Беларусь</address>
+    <birth_date>1989-02-18</birth_date>
+    <appointment_date>2025-03-12</appointment_date>
+    <doctor_name>Павлов</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Юрий Григорьев</patient_name>
+    <address>Витебск, Беларусь</address>
+    <birth_date>1993-07-29</birth_date>
+    <appointment_date>2025-02-22</appointment_date>
+    <doctor_name>Соколова</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Людмила Егорова</patient_name>
+    <address>Бобруйск, Беларусь</address>
+    <birth_date>1952-03-14</birth_date>
+    <appointment_date>2025-01-12</appointment_date>
+    <doctor_name>Петров</doctor_name>
+    <conclusion>требуется лечение</conclusion>
+  </record>
+  <record>
+    <patient_name>Георгий Захаров</patient_name>
+    <address>Барановичи, Беларусь</address>
+    <birth_date>1981-09-01</birth_date>
+    <appointment_date>2025-05-20</appointment_date>
+    <doctor_name>Иванова</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Марина Макарова</patient_name>
+    <address>Мозырь, Беларусь</address>
+    <birth_date>1974-12-05</birth_date>
+    <appointment_date>2025-04-15</appointment_date>
+    <doctor_name>Николаев</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Артем Волков</patient_name>
+    <address>Пинск, Беларусь</address>
+    <birth_date>1997-03-09</birth_date>
+    <appointment_date>2025-03-30</appointment_date>
+    <doctor_name>Смирнова</doctor_name>
+    <conclusion>требуется обследование</conclusion>
+  </record>
+  <record>
+    <patient_name>Светлана Киселева</patient_name>
+    <address>Минск, Беларусь</address>
+    <birth_date>1960-06-21</birth_date>
+    <appointment_date>2025-02-18</appointment_date>
+    <doctor_name>Козлов</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Пётр Сергеев</patient_name>
+    <address>Гродно, Беларусь</address>
+    <birth_date>1986-10-14</birth_date>
+    <appointment_date>2025-05-08</appointment_date>
+    <doctor_name>Морозова</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Валентина Алексеева</patient_name>
+    <address>Брест, Беларусь</address>
+    <birth_date>1971-01-26</birth_date>
+    <appointment_date>2025-03-14</appointment_date>
+    <doctor_name>Лебедев</doctor_name>
+    <conclusion>рекомендована терапия</conclusion>
+  </record>
+  <record>
+    <patient_name>Игорь Николаев</patient_name>
+    <address>Гомель, Беларусь</address>
+    <birth_date>1991-08-07</birth_date>
+    <appointment_date>2025-04-25</appointment_date>
+    <doctor_name>Васильева</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Надежда Романова</patient_name>
+    <address>Могилёв, Беларусь</address>
+    <birth_date>1984-02-12</birth_date>
+    <appointment_date>2025-02-05</appointment_date>
+    <doctor_name>Сидоров</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Роман Ефимов</patient_name>
+    <address>Витебск, Беларусь</address>
+    <birth_date>2002-05-31</birth_date>
+    <appointment_date>2025-05-01</appointment_date>
+    <doctor_name>Кузнецова</doctor_name>
+    <conclusion>требуется обследование</conclusion>
+  </record>
+  <record>
+    <patient_name>Валерий Гусев</patient_name>
+    <address>Бобруйск, Беларусь</address>
+    <birth_date>1959-11-02</birth_date>
+    <appointment_date>2025-01-20</appointment_date>
+    <doctor_name>Павлова</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Любовь Ширяева</patient_name>
+    <address>Барановичи, Беларусь</address>
+    <birth_date>1977-07-18</birth_date>
+    <appointment_date>2025-03-08</appointment_date>
+    <doctor_name>Никитин</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Денис Тихонов</patient_name>
+    <address>Мозырь, Беларусь</address>
+    <birth_date>1996-09-24</birth_date>
+    <appointment_date>2025-04-18</appointment_date>
+    <doctor_name>Орлова</doctor_name>
+    <conclusion>рекомендовано лечение</conclusion>
+  </record>
+  <record>
+    <patient_name>Инна Воронова</patient_name>
+    <address>Пинск, Беларусь</address>
+    <birth_date>1980-12-13</birth_date>
+    <appointment_date>2025-02-26</appointment_date>
+    <doctor_name>Иванов</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Степан Власов</patient_name>
+    <address>Минск, Беларусь</address>
+    <birth_date>1973-05-04</birth_date>
+    <appointment_date>2025-01-15</appointment_date>
+    <doctor_name>Петрова</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Евгения Беляева</patient_name>
+    <address>Гродно, Беларусь</address>
+    <birth_date>1999-03-16</birth_date>
+    <appointment_date>2025-05-22</appointment_date>
+    <doctor_name>Смирнов</doctor_name>
+    <conclusion>требуется обследование</conclusion>
+  </record>
+  <record>
+    <patient_name>Анатолий Савельев</patient_name>
+    <address>Брест, Беларусь</address>
+    <birth_date>1968-08-02</birth_date>
+    <appointment_date>2025-04-08</appointment_date>
+    <doctor_name>Волкова</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+  <record>
+    <patient_name>Лариса Фролова</patient_name>
+    <address>Гомель, Беларусь</address>
+    <birth_date>1987-06-27</birth_date>
+    <appointment_date>2025-03-18</appointment_date>
+    <doctor_name>Николаев</doctor_name>
+    <conclusion>норма</conclusion>
+  </record>
+  <record>
+    <patient_name>Роман Захаров</patient_name>
+    <address>Могилёв, Беларусь</address>
+    <birth_date>2004-10-05</birth_date>
+    <appointment_date>2025-05-25</appointment_date>
+    <doctor_name>Лебедева</doctor_name>
+    <conclusion>здоров</conclusion>
+  </record>
+</patients>
